@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Khreor Fashion</title>
+    <style>
+        :root {
+            --primary-color: #111827;
+            --primary-hover: #374151;
+            --bg-color: #f9fafb;
+            --card-bg: #ffffff;
+            --text-color: #1f2937;
+            --text-light: #4b5563;
+            --border-color: #e5e7eb;
+            --radius: 8px;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.5;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .contact-container {
+            max-width: 750px;
+            margin: 40px auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: var(--radius);
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+        }
+
+        h2 {
+            margin-top: 0;
+            font-size: 1.85rem;
+            color: var(--text-color);
+            text-align: center;
+            letter-spacing: -0.025em;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: var(--text-light);
+            margin-bottom: 30px;
+            font-size: 0.95rem;
+        }
+
+        .departments-grid {
+            display: grid;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .department-card {
+            background-color: #f9fafb;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius);
+            padding: 20px;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        .department-card:hover {
+            border-color: var(--primary-color);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+        }
+
+        .department-card h3 {
+            margin-top: 0;
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+            color: var(--text-color);
+        }
+
+        .department-card p {
+            margin: 0 0 12px 0;
+            font-size: 0.88rem;
+            color: var(--text-light);
+        }
+
+        .email-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            word-break: break-all;
+        }
+
+        .email-link:hover {
+            text-decoration: underline;
+        }
+
+        .direct-contacts {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+
+        .direct-contacts a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .direct-contacts a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="contact-container">
+    <h2>Khreor Fashion — Contact Us</h2>
+    <p class="subtitle">Reach out directly to the right department using the email addresses below.</p>
+    
+    <!-- Department Email Directory -->
+    <div class="departments-grid">
+        <div class="department-card">
+            <h3>Orders &amp; Shipping</h3>
+            <p>Tracking order status, delayed shipments, address corrections, delivery issues, or missing packages.</p>
+            <a href="mailto:orders@khreorfashion.store" class="email-link">✉ orders@khreorfashion.store</a>
+        </div>
+
+        <div class="department-card">
+            <h3>Returns &amp; Exchanges</h3>
+            <p>RMA (Return Merchandise Authorization) requests, exchange sizing queries, refund processing status, and return label issues.</p>
+            <a href="mailto:returns@khreorfashion.store" class="email-link">✉ returns@khreorfashion.store</a>
+        </div>
+
+        <div class="department-card">
+            <h3>Product &amp; Sizing Support</h3>
+            <p>Fits/measurements, stock restocks, fabric care instructions, or styling advice.</p>
+            <a href="mailto:styling@khreorfashion.store" class="email-link">✉ styling@khreorfashion.store</a>
+        </div>
+
+        <div class="department-card">
+            <h3>Billing &amp; Payments</h3>
+            <p>Failed checkouts, double charges, gift card issues, promo code errors, and invoice requests.</p>
+            <a href="mailto:billing@khreorfashion.store" class="email-link">✉ billing@khreorfashion.store</a>
+        </div>
+
+        <div class="department-card">
+            <h3>Wholesale &amp; B2B Inquiries</h3>
+            <p>Boutique stockists, bulk purchases, distributor partnerships, and line-sheet requests.</p>
+            <a href="mailto:wholesale@khreorfashion.store" class="email-link">✉ wholesale@khreorfashion.store</a>
+        </div>
+
+        <div class="department-card">
+            <h3>Press, PR &amp; Influencer Collaborations</h3>
+            <p>Brand ambassador applications, media kits, press pulls, and event invitations.</p>
+            <a href="mailto:pr@khreorfashion.store" class="email-link">✉ pr@khreorfashion.store</a>
+        </div>
+
+        <div class="department-card">
+            <h3>Affiliate Programme</h3>
+            <p>Direct contact point for managing your affiliate program. Handles creator applications, discount code generation inquiries, payout tracking, and dashboard support for affiliates promoting Khreor Fashion or custom apparel.</p>
+            <a href="mailto:affiliate@khreorfashion.store" class="email-link">✉ affiliate@khreorfashion.store</a>
+        </div>
+    </div>
+
+    <div class="direct-contacts">
+        <p><strong>Main Executive Contact for Business Cards:</strong><br>
+        <a href="mailto:CalebMoonsamy@KhreorFashion.store">CalebMoonsamy@KhreorFashion.store</a> &amp; <a href="mailto:EmelineMoonsamy@KhreorFashion.store">EmelineMoonsamy@KhreorFashion.store</a></p>
+    </div>
+</div>
+
+</body>
+</html>
